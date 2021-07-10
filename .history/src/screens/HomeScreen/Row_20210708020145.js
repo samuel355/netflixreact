@@ -36,7 +36,7 @@ function Row({title, fetchUrl, isLargeRow=false}) {
                                 }`}
                                 alt= {movie.name} />
                         )
-                    )
+                    ))
                 }
             </div>
         </div>

@@ -32,11 +32,10 @@ function Row({title, fetchUrl, isLargeRow=false}) {
                                 className={`row__poster ${isLargeRow && "row__posterLare"}`}
                                 key={movie.id}
                                 src= {`${base_url}${
-                                    isLargeRow ? movie.poster_path : movie.backdrop_path
-                                }`}
-                                alt= {movie.name} />
+                                    isLargeRow ? movie.poster_path
+                                }`} alt= {} />
                         )
-                    )
+                    ))
                 }
             </div>
         </div>
