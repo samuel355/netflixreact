@@ -46,12 +46,10 @@
 }
 .login__body>h1{
     font-size: 3.125rem;
-    margin-bottom: 20px;
 }
 .login__body>h2{
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 30px;
 }
 .login__body>h3{
     font-weight: 400;
@@ -61,7 +59,9 @@
 .login__input{
     margin: 20px;
 }
+
 .login__input > form >input{
+    align-items: center;
     padding: 10px;
     outline-width: 0;
     width: 30%;
